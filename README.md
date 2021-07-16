@@ -61,7 +61,7 @@ However, scaled pixels are not guaranteed to stay square because camera zooming 
 ![Not pixel-perfect](screenshots/not-pixel-perfect.png)
 <br>*Scaling content by camera zoom does not respect the pixel grid.*
 
-If you need pixel-perfect scaling, consider this [solution by sysharm](https://godotengine.org/qa/25504/pixel-perfect-scaling#a26997), which scales the viewport instead of the camera zoom.
+If you need pixel-perfect scaling, consider this [solution by sysharm](https://godotengine.org/qa/25504/pixel-perfect-scaling#a26997) or this [plugin by Yukitty](https://github.com/Yukitty/godot-addon-integer_resolution_handler), which scale the viewport instead of the camera zoom.
 
 ## UI Scaling
 
