@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" alt="icon" width="64px" height="64px">
+  <img src="icon.png" alt="icon" width="80px" height="80px">
 </p>
 <h1 align="center">Scaling CanvasLayer</h1>
 
