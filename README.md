@@ -56,7 +56,7 @@ You can avoid antialiasing by disabling **Filter** and **Mipmaps** on the **Impo
 ![Disabling Filter and Mipmaps](screenshots/filter-mipmaps-off.png)
 <br>*Disable **Filter** and **Mipmaps** on assets to remove antialiasing.*
 
-However, scaled pixels are not guaranteed to stay square because camera zooming allows pixel fraction in calculations, which occur when the scaled window's aspect ratio is not equal to the desired resolution's aspect ratio. This means that scaled pixels will not align correctly with the pixel grid.
+However, scaled pixels are not guaranteed to stay square because camera zooming allows pixel fractions in calculations, which occur when the scaled window's aspect ratio is not equal to the desired resolution's aspect ratio. This means that scaled pixels will not align correctly with the pixel grid.
 
 ![Not pixel-perfect](screenshots/not-pixel-perfect.png)
 <br>*Scaling content by camera zoom does not respect the pixel grid.*
